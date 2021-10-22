@@ -10,7 +10,7 @@ Made with: https://www.npmjs.com/package/generator-code
 
 ### Syntax Highlighting
 
-This extension highlights types and keywords in the lamp language, as well as values and comments. To install it, simply move it to your vscode extensions folder and enjoy! It is automatically associated with any file with the ".lamp" extension.
+This extension highlights types and keywords in the lamp language, as well as values and comments. To install it, simply move it to your vscode extensions folder, restart your editor and enjoy! It is automatically associated with any file with the ".lamp" extension.
 
 ### Code Snippets
 
