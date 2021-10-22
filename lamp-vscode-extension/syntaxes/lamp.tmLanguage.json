@@ -1,0 +1,54 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Lamp",
+	"patterns": [
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#values"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"functions": {
+			"patterns": [{
+				"name": "support.function",
+				"match": "\\b(display|power)\\b"
+			}]
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "keyword",
+				"match": "\\b(block|circuit|ground)\\b"
+			}]
+		},
+		"types": {
+			"patterns": [{
+				"name": "entity.name.type",
+				"match": "\\b(lamp|switch)\\b"
+			}]
+		},
+		"values": {
+			"patterns": [{
+				"name": "constant",
+				"match": "\\b(\\(*)(on|off)(\\)*)\\b"
+			}]
+		},
+		"comments": {
+		  "begin": "\\#\\# ",
+		  "end": " \\#\\#",
+		  "name": "comment"
+		}
+	
+	},
+	"scopeName": "source.lamp"
+}

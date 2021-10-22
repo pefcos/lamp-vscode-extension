@@ -1,0 +1,12 @@
+{
+    "If Satement": {
+        "prefix": ["if"],
+        "body": ["power ${1:circuit_name} ${2:value}\ncircuit ${1:circuit_name}\n\t\nground"],
+        "description": "A if statement in lamp style."
+    },
+    "If-Else Satement": {
+        "prefix": ["if else"],
+        "body": ["power ${1:circuit_name} ${2:value}\ncircuit ${1:circuit_name}\n\t\nground\npower not_${1:circuit_name} -${2:value}\ncircuit not_${1:circuit_name}\n\t\nground"],
+        "description": "A if-else statement in lamp style."
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "lamp",
+    "displayName": "lamp",
+    "description": "A syntax highlighter for the lamp esoteric programming language.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lamp",
+            "aliases": ["Lamp", "lamp"],
+            "extensions": [".lamp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "lamp",
+            "scopeName": "source.lamp",
+            "path": "./syntaxes/lamp.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "lamp",
+            "scopeName": "source.lamp",
+            "path": "./snippets/snippets.json"
+        }]
+    }
+}
