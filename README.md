@@ -1,65 +1,23 @@
-# lamp README
+# lamp-vscode-extension
 
-This is the README for your extension "lamp". After writing up a brief description, we recommend including the following sections.
+An extension for the Visual Studio Code editor that enables syntax highlighting and code snippets for the lamp esoteric language.
+
+Lamp base repository: https://github.com/pefcos/lamp
+
+Made with: https://www.npmjs.com/package/generator-code
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Syntax Highlighting
 
-For example if there is an image subfolder under your extension project workspace:
+This extension highlights types and keywords in the lamp language, as well as values and comments. To install it, simply move it to your vscode extensions folder and enjoy! It is automatically associated with any file with the ".lamp" extension.
 
-\!\[feature X\]\(images/feature-x.png\)
+### Code Snippets
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Some code snippets are provided by the extension. If you type the `if` word and accept the snippet, a if-like circuit call will be generated for you. As well as if, you can also type `if else` and the snippet will create two consecutive circuits, one with an if-like call and the other with the negation of the value that initializes the first circuit.
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes>
-
-Users appreciate release notes as you update your extension.
+## Release Notes
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release of the lamp-vscode-extension. Syntax highlighting for lamp(v1.0) keywords and values. Also added "if" and "if else" snippets.
