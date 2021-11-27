@@ -21,3 +21,7 @@ Some code snippets are provided by the extension. If you type the `if` word and 
 ### 1.0.0
 
 Initial release of the lamp-vscode-extension. Syntax highlighting for lamp(v1.0) keywords and values. Also added "if" and "if else" snippets.
+
+### 1.0.1
+
+Changed comment syntax highlighting.
