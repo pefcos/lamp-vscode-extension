@@ -28,7 +28,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword",
-				"match": "\\b(block|circuit|ground)\\b"
+				"match": "\\b(block|circuit|ground|word)\\b"
 			}]
 		},
 		"types": {
