@@ -26,3 +26,4 @@ Initial release of the lamp-vscode-extension. Syntax highlighting for lamp(v1.0)
 
 Changed comment syntax highlighting.
 Added "word" highlighting.
+Added "delete" highlighting;
