@@ -1,4 +1,9 @@
 {
+    "Circuit": {
+        "prefix": ["circuit"],
+        "body": ["circuit ${1:circuit_name}\n\t\nground"],
+        "description": "A circuit declaration."
+    },
     "If Satement": {
         "prefix": ["if"],
         "body": ["power ${1:circuit_name} ${2:value}\ncircuit ${1:circuit_name}\n\t\nground"],
